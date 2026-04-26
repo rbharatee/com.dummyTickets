@@ -132,7 +132,7 @@ public class BookingPageTest extends BaseClass {
 		details.enterSecondPassengerFirtName("Sally");
 
 		// date of birth
-		//test
+		
 		details.clickDOB2();
 		details.clickYearDropdown2();
 		details.selectYear2();
