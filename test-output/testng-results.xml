@@ -2,52 +2,52 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-21T11:07:14 CDT" name="Default suite" finished-at="2026-04-21T11:07:34 CDT" duration-ms="20595">
+  <suite started-at="2026-04-26T14:52:05 CDT" name="Default suite" finished-at="2026-04-26T14:52:27 CDT" duration-ms="21820">
     <groups>
     </groups>
-    <test started-at="2026-04-21T11:07:14 CDT" name="Default test" finished-at="2026-04-21T11:07:34 CDT" duration-ms="20595">
-      <class name="testCases.BookingPage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.BookingPage@4f32a3ad]" started-at="2026-04-21T11:07:14 CDT" name="setup" finished-at="2026-04-21T11:07:20 CDT" duration-ms="6438" status="PASS">
+    <test started-at="2026-04-26T14:52:05 CDT" name="Default test" finished-at="2026-04-26T14:52:27 CDT" duration-ms="21820">
+      <class name="testCases.BookingPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.BookingPageTest@303cf2ba]" started-at="2026-04-26T14:52:05 CDT" name="setup" finished-at="2026-04-26T14:52:12 CDT" duration-ms="6930" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="clickBookingLink()[pri:0, instance:testCases.BookingPage@4f32a3ad]" started-at="2026-04-21T11:07:20 CDT" name="clickBookingLink" finished-at="2026-04-21T11:07:28 CDT" duration-ms="7442" status="PASS">
+        <test-method signature="clickBookingLink()[pri:0, instance:testCases.BookingPageTest@303cf2ba]" started-at="2026-04-26T14:52:12 CDT" name="clickBookingLink" finished-at="2026-04-26T14:52:19 CDT" duration-ms="6669" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickBookingLink -->
-        <test-method signature="addCouponCode()[pri:0, instance:testCases.BookingPage@4f32a3ad]" started-at="2026-04-21T11:07:28 CDT" name="addCouponCode" finished-at="2026-04-21T11:07:29 CDT" depends-on-methods="testCases.BookingPage.clickBookingLink" duration-ms="1709" status="PASS">
+        <test-method signature="addCouponCode()[pri:0, instance:testCases.BookingPageTest@303cf2ba]" started-at="2026-04-26T14:52:19 CDT" name="addCouponCode" finished-at="2026-04-26T14:52:22 CDT" depends-on-methods="testCases.BookingPageTest.clickBookingLink" duration-ms="3211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCouponCode -->
-        <test-method signature="enterPassengerDetails()[pri:0, instance:testCases.BookingPage@4f32a3ad]" started-at="2026-04-21T11:07:29 CDT" name="enterPassengerDetails" finished-at="2026-04-21T11:07:31 CDT" depends-on-methods="testCases.BookingPage.clickBookingLink" duration-ms="1379" status="PASS">
+        <test-method signature="enterPassengerDetails()[pri:0, instance:testCases.BookingPageTest@303cf2ba]" started-at="2026-04-26T14:52:22 CDT" name="enterPassengerDetails" finished-at="2026-04-26T14:52:24 CDT" depends-on-methods="testCases.BookingPageTest.clickBookingLink" duration-ms="1447" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterPassengerDetails -->
-        <test-method signature="selectRadioButton()[pri:0, instance:testCases.BookingPage@4f32a3ad]" started-at="2026-04-21T11:07:31 CDT" name="selectRadioButton" finished-at="2026-04-21T11:07:32 CDT" depends-on-methods="testCases.BookingPage.clickBookingLink" duration-ms="713" status="PASS">
+        <test-method signature="selectRadioButton()[pri:0, instance:testCases.BookingPageTest@303cf2ba]" started-at="2026-04-26T14:52:24 CDT" name="selectRadioButton" finished-at="2026-04-26T14:52:24 CDT" depends-on-methods="testCases.BookingPageTest.clickBookingLink" duration-ms="659" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectRadioButton -->
-        <test-method signature="verifyLogo()[pri:0, instance:testCases.BookingPage@4f32a3ad]" started-at="2026-04-21T11:07:32 CDT" name="verifyLogo" finished-at="2026-04-21T11:07:32 CDT" depends-on-methods="testCases.BookingPage.clickBookingLink" duration-ms="46" status="PASS">
+        <test-method signature="verifyLogo()[pri:0, instance:testCases.BookingPageTest@303cf2ba]" started-at="2026-04-26T14:52:24 CDT" name="verifyLogo" finished-at="2026-04-26T14:52:24 CDT" depends-on-methods="testCases.BookingPageTest.clickBookingLink" duration-ms="39" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogo -->
-        <test-method signature="selectOptionalPassenger()[pri:0, instance:testCases.BookingPage@4f32a3ad]" started-at="2026-04-21T11:07:32 CDT" name="selectOptionalPassenger" finished-at="2026-04-21T11:07:32 CDT" depends-on-methods="testCases.BookingPage.enterPassengerDetails" duration-ms="448" status="PASS">
+        <test-method signature="selectOptionalPassenger()[pri:0, instance:testCases.BookingPageTest@303cf2ba]" started-at="2026-04-26T14:52:24 CDT" name="selectOptionalPassenger" finished-at="2026-04-26T14:52:25 CDT" depends-on-methods="testCases.BookingPageTest.enterPassengerDetails" duration-ms="432" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectOptionalPassenger -->
-        <test-method signature="selectSex()[pri:0, instance:testCases.BookingPage@4f32a3ad]" started-at="2026-04-21T11:07:32 CDT" name="selectSex" finished-at="2026-04-21T11:07:32 CDT" depends-on-methods="testCases.BookingPage.enterPassengerDetails" duration-ms="371" status="PASS">
+        <test-method signature="selectSex()[pri:0, instance:testCases.BookingPageTest@303cf2ba]" started-at="2026-04-26T14:52:25 CDT" name="selectSex" finished-at="2026-04-26T14:52:25 CDT" depends-on-methods="testCases.BookingPageTest.enterPassengerDetails" duration-ms="329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectSex -->
-        <test-method signature="secondPassengerDetails()[pri:0, instance:testCases.BookingPage@4f32a3ad]" started-at="2026-04-21T11:07:32 CDT" name="secondPassengerDetails" finished-at="2026-04-21T11:07:33 CDT" depends-on-methods="testCases.BookingPage.selectOptionalPassenger" duration-ms="911" status="PASS">
+        <test-method signature="secondPassengerDetails()[pri:0, instance:testCases.BookingPageTest@303cf2ba]" started-at="2026-04-26T14:52:25 CDT" name="secondPassengerDetails" finished-at="2026-04-26T14:52:26 CDT" depends-on-methods="testCases.BookingPageTest.selectOptionalPassenger" duration-ms="988" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondPassengerDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.BookingPage@4f32a3ad]" started-at="2026-04-21T11:07:33 CDT" name="tearDown" finished-at="2026-04-21T11:07:34 CDT" duration-ms="967" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.BookingPageTest@303cf2ba]" started-at="2026-04-26T14:52:26 CDT" name="tearDown" finished-at="2026-04-26T14:52:27 CDT" duration-ms="954" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.BookingPage -->
+      </class> <!-- testCases.BookingPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -87,11 +87,7 @@
 		</dependency>
 
 
-		<dependency>
-			<groupId>com.a2w</groupId>
-			<artifactId>SeleniumTesting01</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+
 
 
 	</dependencies>
