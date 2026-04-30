@@ -1,0 +1,79 @@
+17:14:30.435 [main] INFO  testCases.BookingPageTest - Starting BookingPageTest: clickBookingLink
+17:14:30.463 [main] INFO  testCases.BookingPageTest - Initializing page objects for BookingPageTest
+17:14:38.475 [main] INFO  testCases.BookingPageTest - Starting BookingPageTest: addCouponCode
+17:14:40.299 [main] INFO  testCases.BookingPageTest - BookingPageTest: addCouponCode completed successfully
+17:14:40.312 [main] INFO  testCases.BookingPageTest - Starting BookingPageTest: enterPassengerDetails
+17:14:42.453 [main] INFO  testCases.BookingPageTest - BookingPageTest: enterPassengerDetails completed successfully
+17:14:42.462 [main] INFO  testCases.BookingPageTest - Starting BookingPageTest: selectRadioButton
+17:14:43.097 [main] INFO  testCases.BookingPageTest - BookingPageTest: selectRadioButton completed successfully
+17:14:43.106 [main] INFO  testCases.BookingPageTest - Starting BookingPageTest: verifyLogo
+17:14:43.151 [main] INFO  testCases.BookingPageTest - BookingPageTest: verifyLogo completed successfully
+17:14:43.162 [main] INFO  testCases.BookingPageTest - Starting BookingPageTest: selectOptionalPassenger
+17:14:43.659 [main] INFO  testCases.BookingPageTest - BookingPageTest: selectOptionalPassenger completed successfully
+17:14:43.671 [main] INFO  testCases.BookingPageTest - Starting BookingPageTest: selectSex
+17:14:44.053 [main] INFO  testCases.BookingPageTest - BookingPageTest: selectSex completed successfully
+17:14:44.065 [main] INFO  testCases.BookingPageTest - Starting BookingPageTest: secondPassengerDetails
+17:14:45.206 [main] INFO  testCases.BookingPageTest - BookingPageTest: secondPassengerDetails completed successfully
+17:45:19.883 [main] INFO  testCases.BookingPageTest - Starting BookingPageTest: clickBookingLink
+17:45:19.906 [main] INFO  testCases.BookingPageTest - Initializing page objects for BookingPageTest
+17:45:25.988 [main] INFO  testCases.BookingPageTest - Clicked on booking link, now validating booking page title
+17:45:26.185 [main] INFO  testCases.BookingPageTest - Starting BookingPageTest: addCouponCode
+17:45:29.525 [main] INFO  testCases.BookingPageTest - Validating coupon error message
+17:45:29.525 [main] INFO  testCases.BookingPageTest - BookingPageTest: addCouponCode completed successfully
+17:45:29.539 [main] INFO  testCases.BookingPageTest - Starting BookingPageTest: enterPassengerDetails
+17:45:30.864 [main] INFO  testCases.BookingPageTest - BookingPageTest: enterPassengerDetails completed successfully
+17:45:30.874 [main] INFO  testCases.BookingPageTest - Starting BookingPageTest: selectRadioButton
+17:45:31.433 [main] INFO  testCases.BookingPageTest - Validating that only one radio button is selected
+17:45:31.434 [main] INFO  testCases.BookingPageTest - BookingPageTest: selectRadioButton completed successfully
+17:45:31.439 [main] INFO  testCases.BookingPageTest - Starting BookingPageTest: verifyLogo
+17:45:31.483 [main] INFO  testCases.BookingPageTest - Checking if booking page logo is displayed
+17:45:31.483 [main] INFO  testCases.BookingPageTest - BookingPageTest: verifyLogo completed successfully
+17:45:31.493 [main] INFO  testCases.BookingPageTest - Starting BookingPageTest: selectOptionalPassenger
+17:45:31.977 [main] INFO  testCases.BookingPageTest - BookingPageTest: selectOptionalPassenger completed successfully
+17:45:31.991 [main] INFO  testCases.BookingPageTest - Starting BookingPageTest: selectSex
+17:45:32.159 [main] INFO  testCases.BookingPageTest - Validating Male option is selected
+17:45:32.282 [main] INFO  testCases.BookingPageTest - Validating Female option is selected
+17:45:32.318 [main] INFO  testCases.BookingPageTest - BookingPageTest: selectSex completed successfully
+17:45:32.324 [main] INFO  testCases.BookingPageTest - Starting BookingPageTest: secondPassengerDetails
+17:45:33.364 [main] INFO  testCases.BookingPageTest - BookingPageTest: secondPassengerDetails completed successfully
+17:55:32.400 [main] INFO  testCases.BookingPageTest - Starting BookingPageTest: clickBookingLink
+17:55:32.434 [main] INFO  testCases.BookingPageTest - Initializing page objects for BookingPageTest
+17:55:39.268 [main] INFO  testCases.BookingPageTest - Clicked on booking link, now validating booking page title
+17:55:41.092 [main] INFO  testCases.BookingPageTest - Starting BookingPageTest: addCouponCode
+17:55:42.934 [main] INFO  testCases.BookingPageTest - Validating coupon error message
+17:55:42.960 [main] ERROR testCases.BookingPageTest - Coupon error message validation failed
+java.lang.AssertionError: Coupon "arc254" cannot be applied because it does not exist1. expected [Coupon "arc254" cannot be applied because it does not exist1.] but found [Coupon "arc254" cannot be applied because it does not exist.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at testCases.BookingPageTest.addCouponCode(BookingPageTest.java:108)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)

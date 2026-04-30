@@ -3,20 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.BookingPage">
+      <class name="testCases.BookingPageTest">
         <methods>
           <include name="addCouponCode"/>
-          <include name="selectSex"/>
-          <include name="clickBookingLink"/>
           <include name="setup"/>
-          <include name="selectRadioButton"/>
-          <include name="enterPassengerDetails"/>
-          <include name="secondPassengerDetails"/>
-          <include name="verifyLogo"/>
-          <include name="selectOptionalPassenger"/>
+          <include name="clickBookingLink"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- testCases.BookingPage -->
+      </class> <!-- testCases.BookingPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

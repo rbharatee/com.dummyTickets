@@ -1,0 +1,16 @@
+17:55:42.976 [main] INFO  testCases.BookingPageTest - Starting BookingPageTest: enterPassengerDetails
+17:55:44.835 [main] INFO  testCases.BookingPageTest - BookingPageTest: enterPassengerDetails completed successfully
+17:55:44.845 [main] INFO  testCases.BookingPageTest - Starting BookingPageTest: selectRadioButton
+17:55:45.613 [main] INFO  testCases.BookingPageTest - Validating that only one radio button is selected
+17:55:45.613 [main] INFO  testCases.BookingPageTest - BookingPageTest: selectRadioButton completed successfully
+17:55:45.618 [main] INFO  testCases.BookingPageTest - Starting BookingPageTest: verifyLogo
+17:55:45.691 [main] INFO  testCases.BookingPageTest - Checking if booking page logo is displayed
+17:55:45.692 [main] INFO  testCases.BookingPageTest - BookingPageTest: verifyLogo completed successfully
+17:55:45.700 [main] INFO  testCases.BookingPageTest - Starting BookingPageTest: selectOptionalPassenger
+17:55:46.292 [main] INFO  testCases.BookingPageTest - BookingPageTest: selectOptionalPassenger completed successfully
+17:55:46.309 [main] INFO  testCases.BookingPageTest - Starting BookingPageTest: selectSex
+17:55:46.530 [main] INFO  testCases.BookingPageTest - Validating Male option is selected
+17:55:46.702 [main] INFO  testCases.BookingPageTest - Validating Female option is selected
+17:55:46.752 [main] INFO  testCases.BookingPageTest - BookingPageTest: selectSex completed successfully
+17:55:46.760 [main] INFO  testCases.BookingPageTest - Starting BookingPageTest: secondPassengerDetails
+17:55:48.251 [main] INFO  testCases.BookingPageTest - BookingPageTest: secondPassengerDetails completed successfully

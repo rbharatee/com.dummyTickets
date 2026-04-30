@@ -3,6 +3,9 @@ package TestBase;
 import java.io.IOException;
 import java.time.Duration;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -15,9 +18,12 @@ import utilities.ReadData;
 public class BaseClass {
 
 	private static WebDriver driver;
+	public Logger logger;
 
 	@BeforeClass
 	public WebDriver setup() throws IOException {
+		logger=LogManager.getLogger(this.getClass());
+		
 		ReadData data = new ReadData();
 		String browser = data.getBrowserName();
 

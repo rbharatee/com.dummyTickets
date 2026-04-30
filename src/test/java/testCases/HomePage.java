@@ -16,7 +16,7 @@ public class HomePage extends BaseClass {
 
 	@Test(priority=1)
 	public void validateHomePageTitle() throws IOException {
-
+		logger.info("Starting HomePage test: validateHomePageTitle");
 		driver = setup();
 		String actualTitle = driver.getTitle();
 
@@ -25,15 +25,15 @@ public class HomePage extends BaseClass {
 
 		// validating home page
 		Assert.assertEquals(actualTitle, ExpectedTitle);
-
+		logger.info("HomePage test: validateHomePageTitle completed successfully");
 	}
 
 	@Test(priority=2)
 	public void clickBookingLink() {
+		logger.info("Starting HomePage test: clickBookingLink");
 		LandingPage home = new LandingPage(driver);
 		home.clickBuyTicket();
-	
-
+		logger.info("HomePage test: clickBookingLink completed successfully");
 	}
 
 }
